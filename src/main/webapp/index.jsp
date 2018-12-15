@@ -1,5 +1,16 @@
 <html>
+
 <body>
-<h2>Hello World!</h2>
+
+<%! String frase = "Harold Isaac Campero Stoffers Murillo"; %>
+
+<%! 
+	String makeItUpper(String frase) {
+		return frase.toUpperCase();
+	}
+%>
+		
+Upper case de <%out.println(frase); %>: <%= makeItUpper(frase) %>
+	
 </body>
 </html>
